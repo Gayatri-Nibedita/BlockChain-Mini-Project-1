@@ -31,6 +31,7 @@ class Blockchain:
     def print_chain(self):
         for block in self.chain:
             print(f"Block {block.index}:\nData: {block.data}\nHash: {block.hash}\nPrevious: {block.previous_hash}\n")
+    
     #Tamper & Recalculate hash 
     def tamper_demo(self):
         #Demonstrates how tampering breaks the chain.
