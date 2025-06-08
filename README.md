@@ -9,20 +9,20 @@
 <h3>Block Structure</h3>
 Below is a simplified representation of a block:
 
-+-------------------------------+
-|           Block Header        |
-+-------------------------------+
-| - Index: 1                    |
-| - Timestamp: 2023-10-01 12:00 |
-| - Previous Hash: abc123...    |
-| - Nonce: 12345                |
-| - Merkle Root: def456...      |
-+-------------------------------+
-|           Transactions        |
-| - Transaction 1               |
-| - Transaction 2               |
-| - ...                         |
-+-------------------------------+
++-------------------------------+\n
+|           Block Header        |\n
++-------------------------------+\n
+| - Index: 1                    |\n
+| - Timestamp: 2023-10-01 12:00 |\n
+| - Previous Hash: abc123...    |\n
+| - Nonce: 12345                |\n
+| - Merkle Root: def456...      |\n
++-------------------------------+\n
+|           Transactions        |\n
+| - Transaction 1               |\n
+| - Transaction 2               |\n
+| - ...                         |\n
++-------------------------------+\n
 
 <h3>Merkle Root and Data Integrity:</h3>
 <p>The Merkle root is a cryptographic hash of all transactions in the block, organized in a binary tree structure. It ensures data integrity by allowing efficient verification of any transaction without needing the entire block. For example, if a single transaction is altered, the Merkle root will change, making the block invalid. This property helps detect tampering quickly and ensures the consistency of the blockchain.</p>
