@@ -10,18 +10,18 @@
 Below is a simplified representation of a block:
 
 +-------------------------------+<br>
-|           Block Header          <br>
+|          Block Header          <br>
 +-------------------------------+<br>
-| - Index: 1                    |<br>
-| - Timestamp: 2023-10-01 12:00 <br>
-| - Previous Hash: abc123...    <br>
-| - Nonce: 12345                <br>
-| - Merkle Root: def456...       <br>
+|- Index: 1                    |<br>
+ - Timestamp: 2023-10-01 12:00 <br>
+ - Previous Hash: abc123...    <br>
+ - Nonce: 12345                <br>
+ - Merkle Root: def456...       <br>
 +-------------------------------+ <br>
-|        Transactions:         <br>
-| - Transaction 1                <br>
-| - Transaction 2                <br>
-| - ...                         <br>
+|     Transactions:         <br>
+ - Transaction 1                <br>
+ - Transaction 2                <br>
+ - ...                         <br>
 +-------------------------------+ <br>
 
 <h3>Merkle Root and Data Integrity:</h3>
